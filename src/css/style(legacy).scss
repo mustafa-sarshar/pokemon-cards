@@ -1,0 +1,263 @@
+$color-body__bg: rgb(233, 231, 231);
+$color-header-footer__bg: #cacaca;
+$color-pokemon-container__bg: darken($color-body__bg, 3%);
+
+$color-pokemon-items-border: rgba(0, 0, 0, 0.3);
+
+$color-hyperlink--normal: rgb(0, 0, 0);
+$color-hyperlink--focused: #9c9c9c;
+$color-hyperlink--visited: $color-hyperlink--normal;
+
+$color-pokemon-items__size-feedback: green;
+
+$color-border-bottom__text--general: darkgray;
+$color-border: #80808066;
+
+$color-modal-container__bg: #808080e3;
+$color-modal-wrapper__bg: lightgray;
+
+$padding-pokemon-container--left-right: 10px;
+$padding-pokemon-item: 2px;
+$padding-pokemon-item__info: 5px;
+$padding-pokemon-item__link: 2px 4px;
+
+$margin-pokemon-item: 10px;
+
+$size-pokemon-items__title: 160px;
+
+$size-footer__height: 100px;
+$size-header__height--v1: 80px;
+$size-max-width: 70%;
+
+$z-index-header: 9999;
+$z-index-footer: calc($z-index-header + 10);
+$z-index-modal-container: calc($z-index-footer + 10);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-body__bg;
+}
+
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.page {
+    &-header {
+        position: fixed;
+        top: 0;
+        display: flex;
+        width: 100%;
+        height: $size-header__height--v1;
+        border-bottom: 1px solid $color-border;
+        background-color: $color-header-footer__bg;
+        padding: 10px 20px;
+        z-index: $z-index-header;
+
+        &__logo {
+            flex: 0 1 200px;
+        }
+    }
+
+    &-main {
+        &__title {
+            padding-top: 100px;
+            text-align: center;
+            border-bottom: 1px solid $color-border-bottom__text--general;
+            margin: 0 auto;
+            height: $size-pokemon-items__title;
+
+            &-link {
+                &:link, &:visited {
+                    color: $color-hyperlink--normal;
+                    text-decoration: none;
+                }
+                &:hover, &:focus {
+                    color: $color-hyperlink--focused;
+                }
+            }
+            &-logo {
+                width: 20px;
+            }
+        }
+    }
+
+    &-footer {
+        clear: both;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: column;
+        text-align: center;
+        border-top: 1px solid $color-border;
+        width: 100%;
+        height: $size-footer__height;
+        background-color: $color-header-footer__bg;
+        z-index: $z-index-footer;
+
+        p {
+            margin: 0 auto;
+        }
+
+        &__social-media {
+            margin: 0 10px 10px 10px;
+        }
+
+        &__copyrights {
+            text-align: center;
+
+            &-link {
+                text-align: center;
+                margin: 2px;
+                border-radius: 5px;
+                transition: all .2s ease-in-out;
+                text-decoration: none;
+
+                &:link {
+                    color: $color-hyperlink--normal;
+                }
+                &:hover, &:focus {
+                    color: $color-hyperlink--focused;
+                }
+                &:visited {
+                    color: $color-hyperlink--visited;
+                }
+            }
+        }
+    }
+}
+
+.pokemon {
+    &-list {
+        background-color: $color-pokemon-container__bg;
+        padding-top: 10px;
+        padding-bottom: $size-footer__height;
+        padding-left: $padding-pokemon-container--left-right;
+        padding-right: $padding-pokemon-container--left-right;
+        margin: 0 auto;
+
+        &-item {
+            background-color: darken($color-pokemon-container__bg, 3%);
+            list-style-type: none;
+            border: 1px solid $color-pokemon-items-border;
+            border-radius: 5px;
+            padding: $padding-pokemon-item;
+            margin: 10px auto; //$margin-pokemon-item;
+            max-width: 90%;
+            width: 400px;
+            transition: all .2s ease-in-out;
+
+            &__btn {
+                display: inline-block;
+                width: 100%;
+                padding: 16px 32px;
+                border: none;
+                transition: all .4s ease-in-out;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                cursor: pointer;
+            }
+
+            &__transform {
+                &-1 {
+                    &:hover {
+                        transform: translateX(10px) scaleX(1.05);
+                    }
+                }
+                &-2 {
+                    &:hover {
+                        transform: translateX(-10px) scaleX(1.05);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal {
+    &-container {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $color-modal-container__bg;
+        z-index: $z-index-modal-container;
+        padding: 5vw;
+        overflow: auto;
+        transition: all 1s ease-in-out;
+    }
+
+    &-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1vw;
+        max-width: 600px;
+        width: 80%;
+        text-align: center;
+        background-color: $color-modal-wrapper__bg;
+        border-radius: 1rem;
+    }
+
+    &__closeBtn {
+        float: right;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        &:hover {
+            border-bottom: 1px solid $color-border;
+        }
+    }
+
+    &__icon {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        @media all and (max-width:400px) {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 3rem;
+        border-bottom: 1px solid $color-border;
+
+        @media all and (max-width:400px) {
+            font-size: 2rem;
+        }
+    }
+
+    &__text {
+        font-weight: bold;
+        font-size: 2rem;
+
+        @media all and (max-width:400px) {
+            font-size: 1.3rem;
+        }
+    }
+}
