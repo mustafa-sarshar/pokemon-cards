@@ -8,6 +8,12 @@ The app gives information about each Pokemon, after fetching data using [Poke AP
 
 ## VISIT THE WEBSITE [😊🔗](https://mustafa-sarshar.github.io/pokemon-cards/)
 
+## SCREENSHOTS
+
+![Landing Page](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-1.png?raw=true)
+![Pokemon Details](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-2.png?raw=true)
+![Search Feature](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-3.png?raw=true)
+
 ## THE 5 Ws
 
 1. Who — The users of the portfolio website. These could be friends, colleagues or potential employers.
