@@ -2,7 +2,7 @@
   "name": "pokemon-cards",
   "version": "2.0.0",
   "description": "This Repository is a simple Web-App for kids who are a fan of Pokemon characters.",
-  "main": "index.js",
+  "main": "",
   "directories": {
     "doc": "docs"
   },
