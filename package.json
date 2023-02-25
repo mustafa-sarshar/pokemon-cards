@@ -1,0 +1,23 @@
+{
+  "name": "pokemon-cards",
+  "version": "2.0.0",
+  "description": "This Repository is a simple Web-App for kids who are a fan of Pokemon characters.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafa-sarshar/pokemon-cards.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafa-sarshar/pokemon-cards/issues"
+  },
+  "homepage": "https://github.com/mustafa-sarshar/pokemon-cards#readme"
+}

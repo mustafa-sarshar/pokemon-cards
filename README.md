@@ -1,10 +1,10 @@
 # Pokemon (Pocket Monsters) cards.
 
+- This Repository is a simple Web-App for kids who are a fan of Pokemon characters.
+
 ## OBJECTIVES
 
-This Repository is a simple Web-App for kids who are a fan of Pokemon characters.
-
-The app gives information about each Pokemon, after fetching data using [Poke API](https://pokeapi.co/api/v2/pokemon/).
+- The app gives information about each Pokemon, after fetching data using [Poke API](https://pokeapi.co/api/v2/pokemon/).
 
 ## VISIT THE WEBSITE [😊🔗](https://mustafa-sarshar.github.io/pokemon-cards/)
 
