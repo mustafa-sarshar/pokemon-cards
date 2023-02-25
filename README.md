@@ -38,4 +38,4 @@
 2. CSS 3 (via SASS)
 3. JavaScript
 4. jQuery
-5. Bootstrap v3
+5. Bootstrap v3 
