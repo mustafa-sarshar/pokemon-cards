@@ -8,7 +8,7 @@
 
 ## VISIT THE WEBSITE [😊🔗](https://mustafa-sarshar.github.io/pokemon-cards/)
 
-## SCREENSHOTS
+### SCREENSHOTS
 
 | **Landing Page** | **Pokemon Details** | **Search Feature** |
 | :---------------: | :---------------: | :---------------: |
@@ -16,29 +16,23 @@
 
 ## THE 5 Ws
 
-1. Who — The users of the Pokemon Cards. These could be friends, colleagues or potential employers.
-2. What — A responsive portfolio website.
-3. When — Whenever anyone would like to learn about me and my profession and works.
+1. Who — The users of the Pokemon Cards. These could be kids, who love to play with Pokemon Cards.
+2. What — A responsive web application.
+3. When — Whenever anyone wants to get info about Pokemon characters.
 4. Where — The app will be optimized for all platforms that support any web browser, including mobile, tablet, and PC.
-5. Why — To allow information about myself available worldwide through internet.
+5. Why — Pokemon character are loved by children, and they are so funny to play with.
 
 ## USER STORIES
 
-- As a user, I want to be able to know the author's technical and soft skills.
-- As a user, I want to get information about the author's educational and professional background.
-- As a user, I want to have access to the projects and their codes, that the author has already completed, to learn more about the his programming skills.
-- As a user, I would like to get contact information to communicate with the author.
+- As a user, I want to be able to learn about Pokemon and more details about them.
+- As a user, I want to be able to search for a specific pokemon.
 
 ## KEY FEATURES
 
+- A **list** of Pokemon, where user can select any of them and get more details about them.
 - A **search** box, where user can search the pokemon via their name.
-- An **about me** page, where user gets more details about the background and technical skills of the author.
-- A **my works** page, where user can learn about the projects that the authors has already completed as well as the corresponding codes, website and documentation.
-- A **contact** page, where user can get the author's contact information and/or can contact the author directly from the website.
 
-## NOTES:
-
-### TECHNOLOGIES USED
+## TECHNOLOGIES USED
 
 1. HTML 5
 2. CSS 3 (via SASS)
