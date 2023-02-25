@@ -10,13 +10,13 @@
 
 ## SCREENSHOTS
 
-![Landing Page](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-1.png?raw=true)
-![Pokemon Details](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-2.png?raw=true)
-![Search Feature](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-3.png?raw=true)
+| **Landing Page** | **Pokemon Details** | **Search Feature** |
+| :---------------: | :---------------: | :---------------: |
+| ![Landing Page](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-1.png?raw=true) | ![Pokemon Details](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-2.png?raw=true) | ![Search Feature](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-3.png?raw=true) |
 
 ## THE 5 Ws
 
-1. Who — The users of the portfolio website. These could be friends, colleagues or potential employers.
+1. Who — The users of the Pokemon Cards. These could be friends, colleagues or potential employers.
 2. What — A responsive portfolio website.
 3. When — Whenever anyone would like to learn about me and my profession and works.
 4. Where — The app will be optimized for all platforms that support any web browser, including mobile, tablet, and PC.
