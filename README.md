@@ -10,9 +10,19 @@
 
 ### SCREENSHOTS
 
-| **Landing Page** | **Pokemon Details** | **Search Feature** |
-| :---------------: | :---------------: | :---------------: |
-| ![Landing Page](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-1.png?raw=true) | ![Pokemon Details](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-2.png?raw=true) | ![Search Feature](https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-3.png?raw=true) |
+<table width="100%" style="overflow:auto">
+  <tr>
+    <th width="33.33%" style="text-align:center;">Landing Page</th>
+    <th width="33.33%" style="text-align:center;">Pokemon Details</th>
+    <th width="33.33%" style="text-align:center;">Search Pokemon</th>
+  </tr>
+  <tr>
+    <td width="33.33%"><img src="https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-1.png?raw=true"/></td>
+    <td width="33.33%"><img src="https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-2.png?raw=true"/></td>
+    <td width="33.33%"><img src="https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-3.png?raw=true"/></td>
+
+  </tr>
+</table>
 
 ## THE 5 Ws
 
@@ -38,4 +48,4 @@
 2. CSS 3 (via SASS)
 3. JavaScript
 4. jQuery
-5. Bootstrap v3 
+5. Bootstrap v3
